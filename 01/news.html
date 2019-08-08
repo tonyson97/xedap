@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>news</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headerr">
+            <div class="topbar" style=" max-width: 1150px; margin : auto ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-7 left-infor">
+                            <ul class="ul-inform">
+                                <li>
+                                    <i class="fa fa-phone" aria-hidden="true"></i> Hotline: <a href="tel:0964739515">0964
+                                            739 515</a>
+                                </li>
+                                <li class="hidden-xs">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> Email: <a href="mailto:notsimple99@gmail.com">notsimple99@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-5 hidden-xs">
+                            <ul class="ul-social">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header-main" style="max-width: 1150px;  margin: auto ">
+                    <div class="row" style=" display: flex;  max-width: 1150px; margin : auto ;justify-content: space-between">
+                        <div class="col-md-3 col-100-h">
+                            <button type="button" class="navbar-toggle collapsed visible-sm visible-xs" id="trigger-mobile" style="display: none; border: none">
+                                    <i class="fa fa-bars" aria-hidden="true" onclick="shownav()"></i>
+                                </button>
+                            <div class="logo">
+                                <a href="file:///Users/nongson/Desktop/FE/01/index.html" class="logo-wrapper ">
+                                    <img src="./img/logo.png" alt="logo Ant Sport" />
+                                </a>
+                            </div>
+                            <div class="mobile-cart visible-sm visible-xs" style="display: none">
+                                <a href="file:///Users/nongson/Desktop/FE/01/cart.html" title="Cart">
+                                    <i class="fa fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="search-forms">
+                            <div class="search-header">
+                                <div class="header_search search_form">
+                                    <form class="input-group search-bar search_form" action="/search" method="get" role="search">
+                                        <input type="search" name="query" value="" placeholder="Tìm kiếm sản phẩm... " class="input-group-field st-default-search-input search-text" autocomplete="off">
+                                        <span class="input-group-btn">
+                                                <button class="btn icon-fallback-text">
+                                                    <i class="fa fa-search"></i>
+                                                </button>
+                                            </span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 hidden-sm hidden-xs">
+                            <div class="index-cart cart-wishlist">
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="file:///Users/nongson/Desktop/FE/01/cart.html" class="header-cart">
+                                            <i class="fa fa-cart-plus" aria-hidden="true"></i> Giỏ hàng <span class="cart-wishlist-number cartCount">0</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="account-sign">
+                                <a href="#" class="account-header">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <div class="a-text">Đăng nhập<span>Tài khoản và đơn hàng</span></div>
+                                    <div class="Sub-1">
+                                        <ul class="Sub-menu">
+                                            <li><a href="file:///Users/nongson/Desktop/FE/01/login.html" style="display: none">Đăng nhập</a></li>
+                                            <li><a href="file:///Users/nongson/Desktop/FE/01/customer-information.html">Quản
+                                                        lý tài khoản</a></li>
+                                            <li><a href="file:///Users/nongson/Desktop/FE/01/sodiachi.html">Sổ địa chỉ</a>
+                                            </li>
+                                            <li><a href="file:///Users/nongson/Desktop/FE/01/register.html">Đăng ký</a></li>
+                                            <li><a href="file:///Users/nongson/Desktop/FE/01/register.html">Đăng xuất</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" data-customer-id="0" class="smartLogin iWishView">Danh sách yêu thích</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-navigation">
+                <nav class="hidden-sm hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul id="nav" class="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/index.html">Trang chủ</a></li>
+                                    <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/about.html">Giới thiệu</a></li>
+                                    <li class="has-mega">
+                                        <a href="file:///Users/nongson/Desktop/FE/01/product.html" class="nav-link">Sản phẩm
+                                                <i class="fa fa-angle-right" data-toggle="dropdown"></i></a>
+                                        <div class="mega-content">
+                                            <div class="level0-wrapper2">
+                                                <div class="nav-block nav-block-center">
+                                                    <ul class="level0">
+                                                        <li class="level1 parent item">
+                                                            <h2 class="h4"><a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Giày</span></a>
+                                                            </h2>
+                                                            <ul class="level1">
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Giày
+                                                                                Nam</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Giày
+                                                                                Nữ</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Giày
+                                                                                thể thao</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Giày
+                                                                                leo núi</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Giày
+                                                                                chạy bộ</span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="level1 parent item">
+                                                            <h2 class="h4"><a href="/trang-phuc-the-thao"><span>Trang phục
+                                                                            thể thao</span></a></h2>
+                                                            <ul class="level1">
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Dành
+                                                                                cho Nam</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Dành
+                                                                                cho Nữ</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Đồ
+                                                                                bơi</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Đấm
+                                                                                bốc & Võ thuật</span></a> </li>
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Yoga</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="level1 parent item">
+                                                            <h2 class="h4"><a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Dụng
+                                                                            cụ thể thao</span></a></h2>
+                                                            <ul class="level1">
+
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Yoga,
+                                                                                thể hình</span></a> </li>
+
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Các
+                                                                                môn cá nhân</span></a> </li>
+
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Phụ
+                                                                                kiện thể thao</span></a> </li>
+
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Các
+                                                                                môn tập thể</span></a> </li>
+
+                                                                <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Đồ
+                                                                                dưới nước</span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="level1 item hkt"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Lều
+                                                                        ngủ, Túi ngủ</span></a>
+                                                            <li class="level1 parent item">
+                                                                <h2 class="h4"><a href="/"><span>Thương hiệu</span></a></h2>
+                                                                <ul class="level1">
+
+                                                                    <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Nike</span></a>
+                                                                    </li>
+
+                                                                    <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Adidas</span></a>
+                                                                    </li>
+
+                                                                    <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Gofit</span></a>
+                                                                    </li>
+
+                                                                    <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>Bitis</span></a>
+                                                                    </li>
+
+                                                                    <li class="level2"> <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html"><span>New
+                                                                                Nalance</span></a> </li>
+
+                                                                </ul>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </li>
+                                        <li class="has-mega abc">
+                                            <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html" class="nav-link">THƯƠNG HIỆU <i class="fa fa-angle-right"
+                                                    data-toggle="dropdown"></i></a>
+                                            <ul class="menu">
+                                                <li class="nav-item-lv2">
+                                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Nike</a>
+                                                </li>
+                                                <li class="nav-item-lv2">
+                                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Adidas</a>
+                                                </li>
+                                                <li class="nav-item-lv2">
+                                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Gofit</a>
+                                                </li>
+                                                <li class="nav-item-lv2">
+                                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Bitis</a>
+                                                </li>
+                                                <li class="nav-item-lv2">
+                                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">New
+                                                        Nalance</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Khuyến mãi</a>
+                                        </li>
+                                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/news.html">Tin tức</a></li>
+                                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/lienhe.html">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="bread-crumb margin-bottom-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                        <li class="home">
+                            <a itemprop="url" href="file:///Users/nongson/Desktop/FE/01/index.html" title="Trang chủ"><span itemprop="title">Trang chủ</span></a>
+                            <span><i class="fa fa-angle-right"></i></span>
+                        </li>
+                        <li><strong itemprop="title">Tin tức</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" itemscope="" itemtype="http://schema.org/Blog">
+        <meta itemprop="name" content="Tin tức">
+        <meta itemprop="description" content="Chủ đề không có mô tả">
+        <div class="row" id="reversecl">
+            <aside class="left left-content col-md-3 col-md-pull-9">
+                <div class="border-bg" style="display: grid">
+
+                    <aside class="aside-item collection-category blog-category">
+                        <div class="heading">
+                            <h2 class="title-head"><span>Danh mục</span></h2>
+                        </div>
+                        <div class="aside-content">
+                            <nav class="nav-category  navbar-toggleable-md">
+                                <ul class="nav navbar-pills">
+
+
+                                    <li class="nav-item "><a class="nav-link" href="/">Trang chủ</a></li>
+
+
+
+                                    <li class="nav-item "><a class="nav-link" href="/gioi-thieu">Giới thiệu</a></li>
+
+
+
+                                    <li class="nav-item">
+                                        <a href="/collections/all" class="nav-link">Sản phẩm</a>
+                                        <i class="fa fa-angle-down"></i>
+                                        <ul class="dropdown-menu">
+
+
+                                            <li class="dropdown-submenu nav-item">
+                                                <a class="nav-link" href="/giay">Giày</a>
+                                                <i class="fa fa-angle-down"></i>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/giay-nam">Giày Nam</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/giay-nu">Giày Nữ</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/giay-the-thao">Giày thể thao</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/giay-leo-nui">Giày leo núi</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/giay-chay-bo">Giày chạy bộ</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+
+
+
+                                            <li class="dropdown-submenu nav-item">
+                                                <a class="nav-link" href="/trang-phuc-the-thao">Trang phục thể thao</a>
+                                                <i class="fa fa-angle-down"></i>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/danh-cho-nam">Dành cho Nam</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/danh-cho-nu">Dành cho Nữ</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/do-boi">Đồ bơi</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/dam-boc-vo-thuat">Đấm bốc &amp; Võ thuật</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/yoga">Yoga</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+
+
+
+                                            <li class="dropdown-submenu nav-item">
+                                                <a class="nav-link" href="/dung-cu-the-thao">Dụng cụ thể thao</a>
+                                                <i class="fa fa-angle-down"></i>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/yoga-the-hinh">Yoga, thể hình</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/cac-mon-ca-nhan">Các môn cá nhân</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/phu-kien-the-thao">Phụ kiện thể thao</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/cac-mon-tap-the">Các môn tập thể</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/do-duoi-nuoc">Đồ dưới nước</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+
+
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/leu-ngu-tui-ngu">Lều ngủ, Túi ngủ</a>
+                                            </li>
+
+
+
+                                            <li class="dropdown-submenu nav-item">
+                                                <a class="nav-link" href="/">Thương hiệu</a>
+                                                <i class="fa fa-angle-down"></i>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/nike">Nike</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/adidas">Adidas</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/gofit">Gofit</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/bitis">Bitis</a>
+                                                    </li>
+
+                                                    <li class="dropdown-submenu nav-item">
+                                                        <a class="nav-link" href="/new-nalance">New Nalance</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+
+
+                                        </ul>
+                                    </li>
+
+
+
+                                    <li class="nav-item">
+                                        <a href="/tat-ca-thuong-hieu" class="nav-link">Thương hiệu</a>
+                                        <i class="fa fa-angle-down"></i>
+                                        <ul class="dropdown-menu">
+
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/nike">Nike</a>
+                                            </li>
+
+
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/adidas">Adidas</a>
+                                            </li>
+
+
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/gofit">Gofit</a>
+                                            </li>
+
+
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/bitis">Bitis</a>
+                                            </li>
+
+
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/new-nalance">New Nalance</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </li>
+
+
+
+                                    <li class="nav-item "><a class="nav-link" href="/khuyen-mai">Khuyến mãi</a></li>
+
+
+
+                                    <li class="nav-item active"><a class="nav-link" href="/tin-tuc">Tin tức</a></li>
+
+
+
+                                    <li class="nav-item "><a class="nav-link" href="/lien-he">Liên hệ</a></li>
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </aside>
+
+
+                    <div class="aside-item">
+                        <div class="heading">
+                            <h2 class="title-head">Bài viết nổi bật</h2>
+                        </div>
+                        <div class="list-blogs">
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="/dt-bi-du-world-cup-2018-cuu-than-dong-mu-co-ten" class="panel-box-media">
+
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/duong-den-world-cup-2018-cua-dt-bi-dang-cap-vuot-troi.jpg?v=1527309783033" data-lazyload="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/duong-den-world-cup-2018-cua-dt-bi-dang-cap-vuot-troi.jpg?v=1527309783033"
+                                        width="70" alt="ĐT Bỉ dự World Cup 2018: Cựu thần đồng MU có tên">
+
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="https://dt-bi-du-world-cup-2018-cuu-than-dong-mu-co-ten" title="ĐT Bỉ dự World Cup 2018: Cựu thần đồng MU có tên">ĐT Bỉ dự World Cup 2018: Cựu thần đồng MU có tên</a></h3>
+                                    <div class="post-time">26/05/2018</div>
+                                </div>
+                            </article>
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="https:/buffon-va-neymar-chuan-bi-tro-thanh-dong-doi-o-psg" class="panel-box-media">
+
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/nhan-dinh-psg-vs-guingamp-0h30-ngay-2501-trut-gian-len-doi-khach.jpg?v=1527309712237" data-lazyload="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/nhan-dinh-psg-vs-guingamp-0h30-ngay-2501-trut-gian-len-doi-khach.jpg?v=1527309712237"
+                                        width="70" alt="Buffon và Neymar chuẩn bị trở thành đồng đội ở PSG">
+
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="/buffon-va-neymar-chuan-bi-tro-thanh-dong-doi-o-psg" title="Buffon và Neymar chuẩn bị trở thành đồng đội ở PSG">Buffon và Neymar chuẩn bị trở thành đồng đội ở PSG</a></h3>
+                                    <div class="post-time">26/05/2018</div>
+                                </div>
+                            </article>
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="/vdv-noi-tieng-nhat-the-gioi-2018-ronaldo-dan-dau-messi-xep-thu-3" class="panel-box-media">
+
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/ronaldo600-3.jpg?v=1527309658347" data-lazyload="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/ronaldo600-3.jpg?v=1527309658347" width="70" alt="VĐV nổi tiếng nhất thế giới 2018: Ronaldo dẫn đầu, Messi xếp thứ 3">
+
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="/vdv-noi-tieng-nhat-the-gioi-2018-ronaldo-dan-dau-messi-xep-thu-3" title="VĐV nổi tiếng nhất thế giới 2018: Ronaldo dẫn đầu, Messi xếp thứ 3">VĐV nổi tiếng nhất thế giới 2018: Ronaldo dẫn đầu, Messi xếp thứ 3</a></h3>
+                                    <div class="post-time">26/05/2018</div>
+                                </div>
+                            </article>
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="/thu-thanh-so-mot-tuyen-argentina-dinh-chan-thuong-lo-world-cup" class="panel-box-media">
+
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/chinh-thuc-danh-sach-dt-argentina-du-world-cup-20181526946307.jpg?v=1527309593610" data-lazyload="https://bizweb.dktcdn.net/thumb/small/100/315/907/articles/chinh-thuc-danh-sach-dt-argentina-du-world-cup-20181526946307.jpg?v=1527309593610"
+                                        width="70" alt="Thủ thành số một tuyển Argentina dính chấn thương, lỡ World Cup">
+
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="/thu-thanh-so-mot-tuyen-argentina-dinh-chan-thuong-lo-world-cup" title="Thủ thành số một tuyển Argentina dính chấn thương, lỡ World Cup">Thủ thành số một tuyển Argentina dính chấn thương, lỡ World Cup</a></h3>
+                                    <div class="post-time">26/05/2018</div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+            <section class="right-content col-md-9 col-md-push-3 list-blog-page">
+                <div class="border-bg clearfix">
+                    <div class="col-md-12">
+                        <div class="box-heading">
+                            <h1 class="title-head">Tin tức</h1>
+                        </div>
+
+
+                        <section class="list-blogs blog-main">
+                            <div class="row">
+                                <div class="page01" id="page1">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/dt-bi-du-world-cup-2018-cuu-than-dong-mu-co-ten">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/duong-den-world-cup-2018-cua-dt-bi-dang-cap-vuot-troi.jpg?v=1527309783033" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/duong-den-world-cup-2018-cua-dt-bi-dang-cap-vuot-troi.jpg?v=1527309783033"
+                                                        alt="ĐT Bỉ dự World Cup 2018: Cựu thần đồng MU có tên" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/dt-bi-du-world-cup-2018-cuu-than-dong-mu-co-ten" title="ĐT Bỉ dự World Cup 2018: Cựu thần đồng MU có tên">ĐT Bỉ dự World Cup 2018: Cựu thần đồng MU có tên</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> HLV trưởng ĐT Bỉ Roberto Martinez vừa công bố danh sách sơ bộ 28 tuyển thủ sẽ tham dự World Cup 2018. Đáng chú ý trong số này là sự góp mặt của cựu thần đồng MU Adnan Januzaj. Bất chấp việc sa sút thảm hại
+                                                    trong thời gian gần đây, Januzaj vẫn có tên trong danh sác...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/buffon-va-neymar-chuan-bi-tro-thanh-dong-doi-o-psg">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/nhan-dinh-psg-vs-guingamp-0h30-ngay-2501-trut-gian-len-doi-khach.jpg?v=1527309712237" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/nhan-dinh-psg-vs-guingamp-0h30-ngay-2501-trut-gian-len-doi-khach.jpg?v=1527309712237"
+                                                        alt="Buffon và Neymar chuẩn bị trở thành đồng đội ở PSG" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/buffon-va-neymar-chuan-bi-tro-thanh-dong-doi-o-psg" title="Buffon và Neymar chuẩn bị trở thành đồng đội ở PSG">Buffon và Neymar chuẩn bị trở thành đồng đội ở PSG</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Thủ môn người Italy quyết định chọn câu lạc bộ PSG của Pháp làm điểm dừng chân tiếp theo trong sự nghiệp cầu thủ. Truyền thông Italy đưa tin Gianluigi Buffon sẽ gia nhập đội bóng nhà giàu của Pháp PSG theo
+                                                    hợp đồng có thời hạn 2 năm, qua đó trở thành đồng đội mới...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/vdv-noi-tieng-nhat-the-gioi-2018-ronaldo-dan-dau-messi-xep-thu-3">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/ronaldo600-3.jpg?v=1527309658347" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/ronaldo600-3.jpg?v=1527309658347" alt="VĐV nổi tiếng nhất thế giới 2018: Ronaldo dẫn đầu, Messi xếp thứ 3"
+                                                        class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/vdv-noi-tieng-nhat-the-gioi-2018-ronaldo-dan-dau-messi-xep-thu-3" title="VĐV nổi tiếng nhất thế giới 2018: Ronaldo dẫn đầu, Messi xếp thứ 3">VĐV nổi tiếng nhất thế giới 2018: Ronaldo dẫn đầu, Messi xếp thứ 3</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Từ ESPN vừa công bố top 5 vận động viên nổi tiếng nhất thế giới tính đến hiện tại. Cristiano Ronaldo xuất sắc dẫn đầu, trong khi Lionel Messi chỉ xếp thứ 3. Ở tuổi 33, Ronaldo vẫn duy trì hiệu suất ghi bàn
+                                                    đáng nể trong màu áo Real Madrid. Mùa giải 2017/18, Ronal...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/thu-thanh-so-mot-tuyen-argentina-dinh-chan-thuong-lo-world-cup">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/chinh-thuc-danh-sach-dt-argentina-du-world-cup-20181526946307.jpg?v=1527309593610" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/chinh-thuc-danh-sach-dt-argentina-du-world-cup-20181526946307.jpg?v=1527309593610"
+                                                        alt="Thủ thành số một tuyển Argentina dính chấn thương, lỡ World Cup" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/thu-thanh-so-mot-tuyen-argentina-dinh-chan-thuong-lo-world-cup" title="Thủ thành số một tuyển Argentina dính chấn thương, lỡ World Cup">Thủ thành số một tuyển Argentina dính chấn thương, lỡ World Cup</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Thủ môn số một của tuyển Argentina Sergio Romero chính thức phải ngồi nhà xem World Cup sau khi dính chấn thương đầu gối cách đây ít ngày. Không phải là cái tên được trọng dụng ở Manchester United nhưng
+                                                    khi trở về tuyển Argentina, Sergio Romero luôn là sự lựa chọ...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/bi-mat-gap-giam-doc-juventus-morata-san-sang-roi-chelsea">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/photo-1-1520148860133131401507.jpg?v=1527309455810" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/photo-1-1520148860133131401507.jpg?v=1527309455810" alt="Bí mật gặp giám đốc Juventus, Morata sẵn sàng rời Chelsea?"
+                                                        class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/bi-mat-gap-giam-doc-juventus-morata-san-sang-roi-chelsea" title="Bí mật gặp giám đốc Juventus, Morata sẵn sàng rời Chelsea?">Bí mật gặp giám đốc Juventus, Morata sẵn sàng rời Chelsea?</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Chân sút người Tây Ban Nha cùng người đại diện đã có mặt tại Italy để có cuộc đàm phán với lãnh đạo CLB cũ Juventus. Trong khi các đồng nghiệp nô nức về Tây Ban Nha hội quân để chuẩn bị cho chiến dịch World
+                                                    Cup 2018, Alvaro Morata l...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/world-cup-2018-ngay-24-5-mbappe-mac-ao-so-10-danh-gia-o-dt-phap">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/watch-fifa-world-cup-2018-live-in-france.png?v=1527309370430" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/watch-fifa-world-cup-2018-live-in-france.png?v=1527309370430"
+                                                        alt="World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/world-cup-2018-ngay-24-5-mbappe-mac-ao-so-10-danh-gia-o-dt-phap" title="World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp">World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Neuer vẫn là sự lựa chọn số 1 cho khung thành ĐT Đức ở World Cup. Áp lực bảo vệ cúp vàng thế giới là rất lớn với "Cỗ xe tăng" khi các đối thủ quyết tâm cao, trong đó có tuyển Anh. Huấn luyện viên Deschamps
+                                                    công bố số áo đấu của 23 tuyển thủ dự World Cup 2018. Kyl...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+
+                                </div>
+                                <div class="page02" id="page2" style="display: none">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/world-cup-2018-ngay-24-5-mbappe-mac-ao-so-10-danh-gia-o-dt-phap">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/watch-fifa-world-cup-2018-live-in-france.png?v=1527309370430" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/watch-fifa-world-cup-2018-live-in-france.png?v=1527309370430"
+                                                        alt="World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/world-cup-2018-ngay-24-5-mbappe-mac-ao-so-10-danh-gia-o-dt-phap" title="World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp">World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Neuer vẫn là sự lựa chọn số 1 cho khung thành ĐT Đức ở World Cup. Áp lực bảo vệ cúp vàng thế giới là rất lớn với "Cỗ xe tăng" khi các đối thủ quyết tâm cao, trong đó có tuyển Anh. Huấn luyện viên Deschamps
+                                                    công bố số áo đấu của 23 tuyển thủ dự World Cup 2018. Kyl...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="/world-cup-2018-ngay-24-5-mbappe-mac-ao-so-10-danh-gia-o-dt-phap">
+
+                                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/watch-fifa-world-cup-2018-live-in-france.png?v=1527309370430" data-lazyload="https://bizweb.dktcdn.net/thumb/large/100/315/907/articles/watch-fifa-world-cup-2018-live-in-france.png?v=1527309370430"
+                                                        alt="World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="/world-cup-2018-ngay-24-5-mbappe-mac-ao-so-10-danh-gia-o-dt-phap" title="World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp">World Cup 2018 ngày 24/5: Mbappe mặc áo số 10 danh giá ở ĐT Pháp</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Nguyễn Chánh Bảo Trung
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Neuer vẫn là sự lựa chọn số 1 cho khung thành ĐT Đức ở World Cup. Áp lực bảo vệ cúp vàng thế giới là rất lớn với "Cỗ xe tăng" khi các đối thủ quyết tâm cao, trong đó có tuyển Anh. Huấn luyện viên Deschamps
+                                                    công bố số áo đấu của 23 tuyển thủ dự World Cup 2018. Kyl...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                        </section>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="text-xs-right text-center pagging-css">
+                            <nav>
+                                <ul class="pagination clearfix">
+
+                                    <li class="page-item"><a class="page-link" onclick="shownews1()">«</a></li>
+                                    <li class="active page-item"><a class="page-link" onclick="shownews1()">1</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="shownews2()">2</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="shownews2()">»</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <script>
+        var elements = document.getElementsByClassName("page01");
+        var i;
+
+        function shownews1() {
+            console.log(1)
+            const temp = document.getElementById("page1")
+            if (temp.style.display == "none") {
+                temp.style.display = "block"
+                document.getElementById("page1").style.display = "block"
+                document.getElementById("page2").style.display = "none"
+            }
+        }
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("page01");
+                current[0].className = current[0].className.replace("page01", "");
+                this.className += "page01";
+            });
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("page02");
+        var i;
+
+        function shownews2() {
+            console.log(2)
+            const temp = document.getElementById("page2")
+            if (temp.style.display == "none") {
+                temp.style.display = "block"
+                document.getElementById("page1").style.display = "none"
+                document.getElementById("page2").style.display = "block"
+            }
+        }
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("page02");
+                current[0].className = current[0].className.replace("page02", "");
+                this.className += "page02";
+            });
+        }
+    </script>
+    <div class="footer-policy">
+        <div class="container">
+            <div class="row">
+                <div class="tt-services-listing clearfix">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="/lien-he" class="tt-services-block">
+                            <div class="tt-col-icon">
+                                <img src="https://bizweb.dktcdn.net/100/315/907/themes/663622/assets/fot_policy_image_1.png?1556002489878" alt="Miễn phí vận chuyển" class="img-responsive">
+                            </div>
+                            <div class="tt-col-description">
+                                <h4 class="tt-title">Miễn phí vận chuyển</h4>
+                                <p>Với đơn hàng trên 1tr VNĐ</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="/lien-he" class="tt-services-block">
+                            <div class="tt-col-icon">
+                                <img src="https://bizweb.dktcdn.net/100/315/907/themes/663622/assets/fot_policy_image_2.png?1556002489878" alt="Hỗ trợ 24/7" class="img-responsive">
+                            </div>
+                            <div class="tt-col-description">
+                                <h4 class="tt-title">Hỗ trợ 24/7</h4>
+                                <p>Hỗ trợ 24h/ngày và 7 ngày/tuần</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="/lien-he" class="tt-services-block">
+                            <div class="tt-col-icon">
+                                <img src="https://bizweb.dktcdn.net/100/315/907/themes/663622/assets/fot_policy_image_3.png?1556002489878" alt="30 ngày trả hàng" class="img-responsive">
+                            </div>
+                            <div class="tt-col-description">
+                                <h4 class="tt-title">30 ngày trả hàng</h4>
+                                <p>Trả lại hàng trong vòng 30 ngày</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="c-menu--slide-left active modal fade in" style="display: none" id="cmenushow">
+        <div class="la-nav-top-login">
+            <div class="la-avatar-nav p-relative text-center">
+                <a href="https://ant-sport.bizwebvietnam.net/account">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+                <div class="la-hello-user-nav ng-scope">Xin chào</div>
+                <img id="close-nav" class="c-menu__close" src="./img/ic-close-menu.png" alt="close nav" onclick="hidemenu()">
+            </div>
+            <div class="la-action-link-nav text-center">
+
+                <a href="file:///Users/nongson/Desktop/FE/01/login.html" class="uppercase">ĐĂNG NHẬP</a>
+                <a href="file:///Users/nongson/Desktop/FE/01/register.html" class="uppercase">ĐĂNG KÝ</a>
+
+            </div>
+        </div>
+        <aside class="aside-item collection-category">
+            <div class="aside-title">
+                <h3 class="title-head margin-top-0"><span>Danh mục</span></h3>
+            </div>
+            <div class="aside-content">
+                <nav class="nav-category navbar-toggleable-md">
+                    <ul class="nav navbar-pills">
+                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/index.html">Trang chủ</a></li>
+                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/about.html">Giới thiệu</a></li>
+                        <li class="nav-item">
+                            <a href="file:///Users/nongson/Desktop/FE/01/product.html" class="nav-link">Sản phẩm</a>
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu nav-item active">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Giày</a>
+                                    <i class="fa fa-angle-down"></i>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Giày Nam</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Giày Nữ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Giày thể thao</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Giày leo núi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Giày chạy bộ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Trang phục thể thao</a>
+                                    <i class="fa fa-angle-down"></i>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Dành cho Nam</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Dành cho Nữ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Đồ bơi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Đấm bốc &amp; Võ
+                                                    thuật</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Yoga</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Dụng cụ thể thao</a>
+                                    <i class="fa fa-angle-down"></i>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Yoga, thể hình</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Các môn cá nhân</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Phụ kiện thể
+                                                    thao</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Các môn tập thể</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Đồ dưới nước</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Lều ngủ, Túi ngủ</a>
+                                </li>
+                                <li class="dropdown-submenu nav-item">
+                                    <a class="nav-link" href="/">Thương hiệu</a>
+                                    <i class="fa fa-angle-down"></i>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Nike</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Adidas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Gofit</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Bitis</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">New Nalance</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html" class="nav-link">Thương hiệu</a>
+                            <i class="fa fa-angle-down"></i>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Nike</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Adidas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Gofit</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Bitis</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">New Nalance</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Khuyến mãi</a></li>
+                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Tin tức</a></li>
+                        <li class="nav-item "><a class="nav-link" href="file:///Users/nongson/Desktop/FE/01/product-caterogy.html">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="site-footer">
+            <div class="container">
+                <div class="footer-inner padding-top-30 padding-bottom-20">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget">
+                                <h3 onclick="F4('F1')"><span>Thông tin cửa hàng</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </h3>
+                                <ul class="list-menu" id="F1">
+                                    <li><a href="/">Giới thiệu công ty</a></li>
+
+                                    <li><a href="/">Tiêu chí bán hàng</a></li>
+
+                                    <li><a href="/">Đối tác chiến lược</a></li>
+
+                                    <li><a href="/">Hệ thống trung tâm</a></li>
+
+                                    <li><a href="/">Tuyển dụng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget">
+                                <h3 onclick="F4('F2')"><span>Chính sách</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </h3>
+                                <ul class="list-menu" id="F2">
+                                    <li><a href="/">Giao nhận - lắp đặt</a></li>
+
+                                    <li><a href="/">Dùng thử sản phẩm</a></li>
+
+                                    <li><a href="/">Khu vực giao nhận</a></li>
+
+                                    <li><a href="/">Khách hàng thành viên</a></li>
+
+                                    <li><a href="/">Trả góp</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget">
+                                <h3 onclick="F4('F3')"><span>Hỗ trợ khách hàng</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </h3>
+                                <ul class="list-menu " id="F3">
+                                    <li><a href="/">Hướng dẫn mua hàng</a></li>
+
+                                    <li><a href="/">Hình thức thanh toán</a></li>
+
+                                    <li><a href="/">Chăm sóc khách hàng</a></li>
+
+                                    <li><a href="/">Quy định đổi sản phẩm</a></li>
+
+                                    <li><a href="/">Tra cứu thẻ thành viên</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget no-border">
+                                <h3 style="display: flex;justify-content: space-between;" onclick="F4('F4')"><span>Liên
+                                            hệ</span><i class="fa fa-caret-down" aria-hidden="true"></i></h3>
+                                <ul class="list-menu ul-footer-contact" id="F4">
+
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> 175 Lý Thường Kiệt, Phường 6, Quận Tân Bình, TP Hồ Chí Minh</li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:0982362509">0982 362
+                                                509</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:baotrung304@gmail.com">baotrung304@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright clearfix">
+            <div class="container">
+                <div class="inner clearfix">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <span>© Bản quyền thuộc về <b>Son CLone</b> <span class="s480-f">|</span> Cung cấp bởi <a href="https://pages.fm/" title="Pancake" target="_blank" rel="nofollow">Pancake</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="back-to-top show"><i class="fa  fa-arrow-circle-up"></i></div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('quickview');
+        var modal1 = document.getElementById('popup-cart');
+        var modal2 = document.getElementById('cmenushow');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            console.log(event.target)
+            if (event.target.id == 'cmenushow') {
+                modal2.style.display = "none";
+            }
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("footer-widget");
+        var i;
+
+        function F4(id) {
+            const temp = document.getElementById(id)
+            console.log(temp.style.display)
+            if (temp.style.display == "block") {
+                temp.style.display = "none"
+                document.getElementById(id).style.display = "none"
+            } else {
+                if (document.getElementById(id).style.display == "none") {
+                    temp.style.display = "block"
+                } else {
+                    temp.style.display = "block"
+                    document.getElementById(id).style.display = "none"
+                }
+            }
+        }
+        var btns = container.getElementsByClassName("footer-widget");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("footer-widget");
+                current[0].className = current[0].className.replace("footer-widget", "");
+                this.className += "footer-widget";
+            });
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("c-menu--slide-left");
+        var i;
+
+        function shownav() {
+            console.log('da an mo')
+            const temp = document.getElementById("cmenushow")
+            if (temp.style.display == "none") {
+                temp.style.display = "block"
+                document.getElementById("cmenushow").style.display = "block"
+            } else {
+                if (document.getElementById("cmenushow").style.display = "none") {
+                    temp.style.display = "block"
+                } else {
+                    temp.style.display = "none"
+                    document.getElementById("cmenushow").style.display = "block"
+                }
+            }
+        }
+        var container = document.getElementById("cmenushow");
+        var btns = container.getElementsByClassName("c-menu--slide-left");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("c-menu--slide-left");
+                current[0].className = current[0].className.replace("c-menu--slide-left", "");
+                this.className += "c-menu--slide-left";
+            });
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("c-menu--slide-left");
+        var i;
+
+        function hidemenu() {
+            console.log("da an dong")
+            const temp = document.getElementById("cmenushow")
+            if (temp.style.display == "block") {
+                temp.style.display = "none"
+                document.getElementById("cmenushow").style.display = "none"
+            }
+        }
+        var container = document.getElementById("cmenushow");
+        var btns = container.getElementsByClassName("c-menu--slide-left");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("c-menu--slide-left");
+                current[0].className = current[0].className.replace("c-menu--slide-left", "");
+                this.className += "c-menu--slide-left";
+            });
+        }
+    </script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('quickview');
+        var modal1 = document.getElementById('popup-cart');
+        var modal2 = document.getElementById('cmenushow');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            console.log(event.target)
+            if (event.target.id == 'cmenushow') {
+                modal2.style.display = "none";
+            }
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
