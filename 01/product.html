@@ -1320,7 +1320,6 @@
 
         function F4(id) {
             const temp = document.getElementById(id)
-            console.log(temp.style.display)
             if (temp.style.display == "block") {
                 temp.style.display = "none"
                 document.getElementById(id).style.display = "none"
@@ -1348,7 +1347,6 @@
 
         function SF() {
             const temp = document.getElementById("soft-leftt")
-            console.log(temp.style.display)
             if (temp.style.display == "block") {
                 temp.style.display = "none"
                 document.getElementById("soft-leftt").style.display = "none"
@@ -1375,7 +1373,6 @@
         var i;
 
         function shownav() {
-            console.log('da an mo')
             const temp = document.getElementById("cmenushow")
             if (temp.style.display == "none") {
                 temp.style.display = "block"
@@ -1404,7 +1401,6 @@
         var i;
 
         function hidemenu() {
-            console.log("da an dong")
             const temp = document.getElementById("cmenushow")
             if (temp.style.display == "block") {
                 temp.style.display = "none"
@@ -1428,7 +1424,6 @@
         var modal2 = document.getElementById('cmenushow');
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {
-            console.log(event.target)
             if (event.target.id == 'cmenushow') {
                 modal2.style.display = "none";
             }
