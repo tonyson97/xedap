@@ -1668,6 +1668,39 @@
 }
 
 @media only screen and (max-width: 527px) and (min-width: 375px) {
+	ul.tabs li.current {
+		font-size: 14px;
+		letter-spacing: 0.02em;
+		font-weight: 600;
+		-moz-transition: color 0.2s linear;
+		-o-transition: color 0.2s linear;
+		-webkit-transition: color 0.2s linear;
+		transition: color 0.2s linear;
+		padding: 5px 13px;
+		display: inline-grid !important;
+		float: none;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		max-width: 100%;
+		background: rgb(151, 202, 81);
+	}
+	.product-tab .tabs-title li h3 {
+		margin: 0;
+		color: black;
+		font-size: 15px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: normal;
+		position: relative;
+	}
+	.product-tab .tabs-title {
+		margin-top: 10px;
+		background-color: rgb(255, 255, 255);
+		margin-bottom: 20px;
+		padding: 10px;
+		display: inline-grid;
+		width: 100%;
+	}
 	.form-group .clearfix {
 		width: 100%;
 		display: grid;
