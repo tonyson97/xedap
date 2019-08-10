@@ -20,16 +20,16 @@
             top: 50%;
             transform: translate(-50%, -50%)
         }
-        
+
         .gm-control-active>img:nth-child(1) {
             display: block
         }
-        
+
         .gm-control-active:hover>img:nth-child(1),
         .gm-control-active:active>img:nth-child(1) {
             display: none
         }
-        
+
         .gm-control-active:hover>img:nth-child(2),
         .gm-control-active:active>img:nth-child(3) {
             display: block
@@ -39,7 +39,7 @@
         .gm-ui-hover-effect {
             opacity: .6
         }
-        
+
         .gm-ui-hover-effect:hover {
             opacity: 1
         }
@@ -54,13 +54,15 @@
     </style>
     <style>
         @media print {
+
             .gm-style .gmnoprint,
             .gmnoprint {
                 display: none
             }
         }
-        
+
         @media screen {
+
             .gm-style .gmnoscreen,
             .gmnoscreen {
                 display: none
@@ -73,7 +75,7 @@
             background-color: rgba(0, 0, 0, 0.45);
             text-align: center
         }
-        
+
         .gm-style-pbt {
             font-size: 22px;
             color: white;
@@ -90,7 +92,7 @@
         .gm-style img {
             max-width: none;
         }
-        
+
         .gm-style {
             font: 400 11px Roboto, Arial, sans-serif;
             text-decoration: none;
@@ -241,9 +243,11 @@
         //]]>
     </script>
     <script>
-        (function() {
+        (function () {
             function asyncLoad() {
-                var urls = ["https://productreviews.sapoapps.vn/assets/js/productreviews.min.js?store=ant-sport.bizwebvietnam.net"];
+                var urls = [
+                    "https://productreviews.sapoapps.vn/assets/js/productreviews.min.js?store=ant-sport.bizwebvietnam.net"
+                ];
                 for (var i = 0; i < urls.length; i++) {
                     var s = document.createElement('script');
                     s.type = 'text/javascript';
@@ -254,7 +258,8 @@
                     x.parentNode.insertBefore(s, x);
                 }
             }
-            window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);
+            window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load',
+                asyncLoad, false);
         })();
     </script>
 
@@ -299,8 +304,10 @@
                             <div class="icon icon--order-success svg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="72px" height="72px">
                                     <g fill="none" stroke="#8EC343" stroke-width="2">
-                                        <circle cx="36" cy="36" r="35" style="stroke-dasharray:240px, 240px; stroke-dashoffset: 480px;"></circle>
-                                        <path d="M17.417,37.778l9.93,9.909l25.444-25.393" style="stroke-dasharray:50px, 50px; stroke-dashoffset: 0px;"></path>
+                                        <circle cx="36" cy="36" r="35"
+                                            style="stroke-dasharray:240px, 240px; stroke-dashoffset: 480px;"></circle>
+                                        <path d="M17.417,37.778l9.93,9.909l25.444-25.393"
+                                            style="stroke-dasharray:50px, 50px; stroke-dashoffset: 0px;"></path>
                                     </g>
                                 </svg>
                             </div>
@@ -324,11 +331,14 @@
                                     <label class="control-label">Đơn hàng</label> #1007
                                     <label class="control-label unprint">(8)</label>
                                 </h2>
-                                <a class="underline-none expandable expandable--pull-right mobile unprint" bind-event-click="toggle(this, &#39;.order-items&#39;)" bind-class="{open: order_expand}" href="javascript:void(0)">
+                                <a class="underline-none expandable expandable--pull-right mobile unprint"
+                                    bind-event-click="toggle(this, &#39;.order-items&#39;)"
+                                    bind-class="{open: order_expand}" href="javascript:void(0)">
                                     Xem chi tiết
                                 </a>
                             </div>
-                            <div class="order-items mobile--is-collapsed" bind-class="{&#39;mobile--is-collapsed&#39;: !order_expand}">
+                            <div class="order-items mobile--is-collapsed"
+                                bind-class="{&#39;mobile--is-collapsed&#39;: !order_expand}">
                                 <div class="summary-body summary-section summary-product">
                                     <div class="summary-product-list">
                                         <ul class="product-list">
@@ -339,10 +349,13 @@
                                                 <div class="product-thumbnail pull-left">
                                                     <div class="product-thumbnail__wrapper">
 
-                                                        <img src="./img/product-23.jpg" alt="Xe đạp gấp dòng địa hình Fornix F3 Default Title" class="product-thumbnail__image">
+                                                        <img src="./img/product-23.jpg"
+                                                            alt="Xe đạp gấp dòng địa hình Fornix F3 Default Title"
+                                                            class="product-thumbnail__image">
 
                                                     </div>
-                                                    <span class="product-thumbnail__quantity unprint" aria-hidden="true">4</span>
+                                                    <span class="product-thumbnail__quantity unprint"
+                                                        aria-hidden="true">4</span>
                                                 </div>
                                                 <div class="product-info pull-left">
                                                     <span class="product-info-name">
@@ -362,10 +375,13 @@
                                                 <div class="product-thumbnail pull-left">
                                                     <div class="product-thumbnail__wrapper">
 
-                                                        <img src="./img/product-08.jpg" alt="Ghi đông xe đạp TRUVATIV 25.4MM X 580MM - 160G Default Title" class="product-thumbnail__image">
+                                                        <img src="./img/product-08.jpg"
+                                                            alt="Ghi đông xe đạp TRUVATIV 25.4MM X 580MM - 160G Default Title"
+                                                            class="product-thumbnail__image">
 
                                                     </div>
-                                                    <span class="product-thumbnail__quantity unprint" aria-hidden="true">4</span>
+                                                    <span class="product-thumbnail__quantity unprint"
+                                                        aria-hidden="true">4</span>
                                                 </div>
                                                 <div class="product-info pull-left">
                                                     <span class="product-info-name">
@@ -422,8 +438,10 @@
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12 customer-info">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7449.577220775044!2d105.82786606301266!3d21.00110911379031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1563186076492!5m2!1svi!2s" id="mapss" width="600" height="450" frameborder="0"
-                            style="border:0" allowfullscreen></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7449.577220775044!2d105.82786606301266!3d21.00110911379031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1563186076492!5m2!1svi!2s"
+                            id="mapss" width="600" height="450" frameborder="0" style="border:0"
+                            allowfullscreen></iframe>
                         <div class="shipping-info">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
@@ -509,7 +527,7 @@
                             </div>
                         </div>
                         <div class="order-success unprint">
-                            <a href="https://ant-sport.bizwebvietnam.net/" class="btn btn-primary">
+                            <a href="file:///Users/nongson/Desktop/FE/01/index.html" class="btn btn-primary">
                                 Tiếp tục mua hàng
                             </a>
                             <a onclick="window.print()" class="nounderline print-link" href="javascript:void(0)">
@@ -571,7 +589,7 @@
             width: 100%;
             height: 245px;
         }
-        
+
         .hidden-map {
             display: none;
         }
@@ -587,12 +605,12 @@
     <script type="text/javascript">
         context = {}
 
-        $(function() {
+        $(function () {
             Twine.reset(context).bind().refresh();
         });
 
         window.Bizweb || (window.Bizweb = {});
-        Bizweb.Checkout = function() {
+        Bizweb.Checkout = function () {
             function Checkout(e, options) {
                 if (!options)
                     options = {};
@@ -601,19 +619,19 @@
                 this.invalidEmail = false;
             };
 
-            Checkout.prototype.handleClick = function(element) {
+            Checkout.prototype.handleClick = function (element) {
                 $(element).closest(".field__input-wrapper").find(".field__input").focus();
             }
 
-            Checkout.prototype.handleFocus = function(element) {
+            Checkout.prototype.handleFocus = function (element) {
                 $(element).closest(".field__input-wrapper").addClass("js-is-focused")
             }
 
-            Checkout.prototype.handleFieldBlur = function(element) {
+            Checkout.prototype.handleFieldBlur = function (element) {
                 $(element).closest(".field__input-wrapper").removeClass("js-is-focused")
             }
 
-            Checkout.prototype.changeEmail = function() {}
+            Checkout.prototype.changeEmail = function () {}
 
             return Checkout;
         }();
@@ -624,7 +642,7 @@
         var modal1 = document.getElementById('popup-cart');
         var modal2 = document.getElementById('cmenushow');
         // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (event.target.id == 'cmenushow') {
                 modal2.style.display = "none";
             }
