@@ -569,6 +569,7 @@ ul {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	z-index: 99;
+	top: 115%;
 }
 
 .has-mega .menu a:hover {
@@ -618,7 +619,7 @@ ul {
 	left: -253px;
 	min-height: 308px;
 	min-width: 1150px !important;
-	top: 100%;
+	top: 115%;
 	width: 100%;
 	background: #fff none repeat scroll 0 0;
 	border-radius: 0;
