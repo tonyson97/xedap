@@ -318,6 +318,15 @@
 	}
 
 	@media only screen and (max-width: 990px) and (min-width: 768px) {
+		.footer .row .col-sm-6{
+			position: relative;
+			width: 100%;
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+		#reversecl .right-content{
+			max-width: 100%;
+		}
 		.row .column .product-grid .title {
 			text-align: left;
 		}
@@ -770,9 +779,10 @@
 	#cmenushow .aside-item {
 		width: 300px !important;
 		height: calc(100vh - 134px);
-		background: whitesmoke;
+		background: white;
 		overflow: scroll;
 		padding-left: 10px;
+		padding-top: 10px;
 	}
 
 	.bread-crumb .container {
@@ -956,7 +966,7 @@
 	.selection-caterogy .container .pbe .colmn a {
 		position: absolute;
 		top: 160px;
-		right: 100px;
+		right: 60px;
 		text-transform: uppercase;
 		background-color: white;
 		color: #191919;
@@ -1136,6 +1146,7 @@
 	.container .row .right-content {
 		flex: 0 0 100%;
 		max-width: 100%;
+		padding: 0px !important;
 	}
 
 	.container .row .left-content {
@@ -1298,7 +1309,7 @@
 	.topbar .container .row .left-infor {
 		left: 0px !important;
 		position: relative;
-		top: 10px;
+		top: -15px;
 	}
 }
 
@@ -1338,6 +1349,10 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 527px) {
+	#reversecl .right-content {
+		padding-right: 6px;
+		padding-left: 13px;
+		}
 	.product .container .row .details-product .margin-top-20 .col-md-9 {
 		max-width: 100%;
 	}
@@ -1579,7 +1594,7 @@
 		display: block !important;
 		border: none;
 		position: relative;
-		top: 0px;
+		top: -2px;
 		left: auto;
 		font-size: 40px;
 		background-color: white;
@@ -1644,6 +1659,12 @@
 }
 
 @media only screen and (max-width: 527px) {
+	.col-md-12{
+		position: relative;
+		width: 100%;
+		padding-right: 3px !important;
+		padding-left: 15px;
+	}
 	#cmenushow {
 		width: 100% !important;
 	}
@@ -1668,6 +1689,9 @@
 }
 
 @media only screen and (max-width: 527px) and (min-width: 375px) {
+	.row .column-list .product-grid .product-content .add-to-card .btn-cart i {
+		top: -6px;
+	}
 	.row .column {
 		padding: 0;
 	}
@@ -2667,6 +2691,55 @@
 }
 
 @media only screen and (max-width: 375px) and (min-width: 320px) {
+	.rowss {
+		width: 100%;
+		padding-left: 10px;
+	}
+	.account-page .container .row {
+		margin-right: 0px;
+		margin-left: 0px;
+		max-width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.bread-crumb .container .row {
+		margin-left: -16px;
+		margin-right: -10px;
+		max-height: 20px;
+	}
+	.row .column-list .product-grid .product-content .add-to-card .btn-cart i {
+		top: -6px;
+	}
+	#qty {
+		position: relative;
+		left: 0px;
+		top: 3px;
+		max-width: 65px;
+	}
+	.details-product .form-product .form-group .custom-btn-number button.btn-minus {
+		border-radius: 0;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+		top: 27px;
+		position: relative;
+	}
+	.details-product .form-product .form-group .custom-btn-number button.btn-plus {
+		border-radius: 0;
+		border-top-right-radius: 3px;
+		border-bottom-right-radius: 3px;
+		top: 27px;
+		position: absolute;
+		right: 20px;
+	}
+	.clearfix{
+		line-height: 14px;
+	}
+	.header_search .input-group-btn {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 20px;
+	}
 	.row .column {
 		padding: 0;
 	}
@@ -2676,7 +2749,7 @@
 	#thutu {
 		display: block !important;
 		position: absolute;
-		top: 35px;
+		top: 25px;
 		left: 75px;
 	}
 	#form-signup {
@@ -2687,7 +2760,7 @@
 	#reversecl .right-content .border-bg .col-md-12{
 		width: 100%;
 		padding-left: 19px;
-		padding-right: 8px;
+		padding-right: 8px !important;
 	}
 	#reversecl .right-content{
 		padding: 0px;
@@ -2727,10 +2800,10 @@
 		margin-left: 5px !important;
 		display: flex;
 	}
-	.container .row .main_container .pottion .category-products .sort-cate .sort-cate-right .view-mode .btn {
-		font-size: 12px;
+\	.container .row .main_container .pottion .category-products .sort-cate .sort-cate-right .view-mode .btn {
+		font-size: 14px;
 		border-radius: 10px;
-		border-color: rgb(139, 0, 0);
+		border-color: white;
 	}
 	.main_container .pottion .title-head {
 	padding: 10px 0;
@@ -2915,7 +2988,7 @@
 		align-items: center;
 		min-width: 100%;
 		top: -1px !important;
-		left: -8px !important;
+		left: -5px !important;
 	}
 
 	.fa-caret-down {
@@ -2964,14 +3037,6 @@
 		margin: 0 auto;
 		position: relative;
 		left: -15px;
-	}
-
-	.account-page .container .row {
-		margin-right: -25px;
-		margin-left: -20px;
-		min-width: 100%;
-		display: flex;
-		flex-direction: column-reverse;
 	}
 
 	.account-page .container .row .col-md-12 {
@@ -3077,7 +3142,7 @@
 	.topbar .container .row .left-infor {
 		left: 0px !important;
 		position: relative;
-		top: 0px;
+		top: -20px;
 		display: flex;
 		justify-content: center;
 	}
@@ -3404,6 +3469,8 @@
 
 	.headerr {
 		width: 100%;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	.header-main .row .col-100-h {
@@ -3523,7 +3590,7 @@
 		float: right;
 		position: relative;
 		left: -44px;
-		top: -70px;
+		top: -60px;
 	}
 
 	#soft-leftt {
@@ -3540,7 +3607,7 @@
 
 	#qwe {
 		max-width: 100% !important;
-		margin-left: 0px !important;
+		margin-left: 20px !important;
 		position: relative;
 		left: -10px;
 	}
@@ -3650,7 +3717,7 @@
 		font-size: 14px;
 		color: #363636;
 		text-transform: none;
-		line-height: 20px;
+		line-height: 17px;
 	}
 
 	.title-product-cart-mobile p {
@@ -3712,6 +3779,13 @@
 	.cart-mobile .select-item-qty-mobile .txt_center button.increase.items-count.btn-plus {
 		width: 25px !important;
 		padding: 1px 0;
+		border-style: hidden;
+		background: none !important;
+		color: #000;
+		border: solid thin #ddd;
+		position: relative;
+		right: 5px;
+		max-height: 25px;
 	}
 
 	.select-item-qty-mobile .txt_center input {

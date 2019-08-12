@@ -1049,7 +1049,7 @@ ul {
 
 .awe-section-4 .section_banner .container {
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 0px;
 }
 
 .awe-section-4 .section_banner .container .row {
@@ -1774,6 +1774,8 @@ ul {
 .footer .container .row {
 	margin-left: -10px;
 	margin-right: -10px;
+	padding-left: 5px;
+    padding-right: 5px;
 }
 
 .footer .site-footer h3 {
@@ -4678,7 +4680,6 @@ input.btn-full[type="submit"] {
 .btn,
 input[type="submit"] {
 	display: inline-block;
-	height: 40px;
 	line-height: 39px;
 	padding: 0 20px;
 	text-align: center;
@@ -5241,6 +5242,7 @@ h6,
 	padding-left: 0;
 	margin: 20px 0;
 	border-radius: 4px;
+	justify-content: center;
 }
 
 .pagination>li {
