@@ -1809,6 +1809,9 @@
 }
 
 @media only screen and (max-width: 527px) and (min-width: 375px) {
+	#login{
+		padding-top: 10px;
+	}
 	.main_container .pottion .title-head {
 		padding: 10px 0;
 		font-weight: bold;
