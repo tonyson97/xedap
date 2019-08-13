@@ -7,6 +7,9 @@
 }
 
 @media only screen and (max-width: 1920px) {
+	.collection-category{
+		width: 100%;
+	}
 	.fancybox-opened {
 		left: 750px !important;
 	}
@@ -110,6 +113,31 @@
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 1024px) {
+	.bread-crumb {
+		height: 35px;
+		margin-bottom: 0px !important;
+		font-size: 12px;
+		max-width: 100% !important;
+		position: relative;
+		left: -20px;
+	}
+	.selection-caterogy .container .pbe .recss1 a {
+		right: 25px !important;
+	}
+	.left-infor{
+		left: 0 !important;
+	}
+	.selection-new-product .row {
+		margin: 0 auto;
+		max-width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.selection-new-product .row .col-sm-6{
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 5px;
+	}
 	.aside-content .nav-category .nav {
 		padding-left: 0;
 		margin-bottom: 0;
@@ -256,6 +284,8 @@
 	.list-blogs-link .owl-stage-outer .owl-stage .active .item {
 		width: 310px;
 		height: 338px;
+		position: relative;
+		top: -20px;
 	}
 
 	.list-blogs-link .owl-stage-outer .owl-stage .active .item .tt-blog-thumb .tt-img {
@@ -350,6 +380,12 @@
 	}
 
 	@media only screen and (max-width: 990px) and (min-width: 768px) {
+		.bread-crumb {
+			margin-bottom: 0px !important;
+			font-size: 12px;
+			max-width: 100% !important;
+			height: 30px;
+		}
 		.aside-content .nav-category .nav {
 			padding-left: 0;
 			margin-bottom: 0;
@@ -606,6 +642,8 @@
 		.awe-section-5 .tab-content .col-md-3 {
 			flex: 0 0 50%;
 			max-width: 50%;
+			padding-left: 5px;
+			padding-right: 5px;
 		}
 
 		.noibat {
@@ -615,6 +653,8 @@
 		.selection-new-product .row .col-md-3 {
 			flex: 0 0 50%;
 			max-width: 50%;
+			padding-left: 5px;
+			padding-right: 5px;
 		}
 
 		.recss {
@@ -682,6 +722,11 @@
 
 		.header-main .row .col-md-4 {
 			display: none !important;
+		}
+	}
+	@media only screen and (min-width: 992px) {
+		div.container {
+			max-width: 100%;
 		}
 	}
 
@@ -762,7 +807,7 @@
 
 		.search-forms {
 			width: 100% !important;
-			left: -25px !important;
+			left: -19px !important;
 			top: auto !important;
 			padding-right: 0;
 			padding-top: 0;
@@ -804,12 +849,12 @@
 	}
 
 	.selection-new-product .row img {
-		width: 70%;
+		width: 100%;
 		height: auto;
 		position: relative;
 		top: 0;
 		bottom: 0;
-		left: 45px;
+		left: 0px;
 		right: 0;
 		margin: auto;
 	}
@@ -911,9 +956,11 @@
 }
 
 @media only screen and (max-width: 1366px) {
+	.collection-category{
+		width: 100%;
+	}
 	header {
 		width: 100%;
-		padding-left: 5px !important;
 	}
 
 	div.container {
@@ -942,6 +989,22 @@
 }
 
 @media only screen and (max-width: 768px) {
+	.awe-section-6 .section-news .list-blogs-link .news-owl .owl-stage-outer .owl-stage .owl-item .item .tt-title-description {
+		position: relative;
+		margin-right: 20px;
+		margin-left: 33px;
+		padding: 10px;
+		text-align: center;
+		min-height: 80px;
+		color: #777777;
+		transition: all 0.2s linear;
+		-ms-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		margin-top: -96px;
+		background-color: white;
+		font-family: "Montserrat", sans-serif;
+	}
 	.aside-content .nav-category .nav {
 		padding-left: 0;
 		margin-bottom: 0;
@@ -1441,6 +1504,20 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 527px) {
+	tab-content .tab-pane .product-grid .product-image {
+		position: relative;
+		padding-left: 15px;
+	}
+	.bread-crumb .container .row {
+		margin-left: -33px;
+		margin-right: 0px;
+	}
+	.bread-crumb {
+		margin-bottom: 0px !important;
+		font-size: 12px;
+		max-width: 100% !important;
+		height: 40px;
+	}
 	.aside-content .nav-category .nav {
 		padding-left: 0;
 		margin-bottom: 0;
@@ -1670,7 +1747,7 @@
 	}
 
 	.list-blogs-link .owl-stage-outer .owl-stage .active .item .tt-blog-thumb .tt-img {
-		width: 100%;
+		width: 114%;
 		height: auto;
 	}
 
@@ -1750,6 +1827,8 @@
 	.list-blogs-link {
 		width: 100%;
 		height: auto;
+		position: relative;
+		left: -14px;
 	}
 
 	.list-blogs-link .owl-stage-outer .owl-stage {
@@ -1771,6 +1850,16 @@
 }
 
 @media only screen and (max-width: 527px) {
+	.tab-content .tab-pane .product-grid .product-image {
+		position: relative;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.selection-new-product .row .jaxx-more .pagination {
+		padding: 0;
+		margin: 0 auto;
+		display: block;
+	}
 	.aside-content .nav-category .nav {
 		padding-left: 0;
 		margin-bottom: 0;
@@ -1809,6 +1898,10 @@
 }
 
 @media only screen and (max-width: 527px) and (min-width: 375px) {
+	.bread-crumb .container .row {
+		margin-left: -24px;
+		margin-right: 0px;
+	}
 	#login{
 		padding-top: 10px;
 	}
@@ -1974,8 +2067,8 @@
 	}
 
 	.selection-new-product .row {
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	.selection-new-product {
@@ -2181,6 +2274,7 @@
 		width: 100%;
 		position: relative;
 		left: 20px;
+		padding: 0;
 	}
 
 	.selection-caterogy .pbe {
@@ -2218,6 +2312,7 @@
 		color: black;
 		font-size: 13px;
 		font-weight: bold;
+		letter-spacing: 0px;
 	}
 
 	.new-price {
@@ -2254,8 +2349,9 @@
 	}
 
 	.col-sm-6 {
-		padding-right: 0px !important;
-		padding-left: 0px !important;
+		padding-right: 5px !important;
+		padding-left: 5px !important;
+		padding-top: 10px;
 	}
 
 	.selection-new-product .row .product-grid .product-content {
@@ -2856,6 +2952,20 @@
 }
 
 @media only screen and (max-width: 375px) and (min-width: 320px) {
+	.selection-new-product .row img {
+		width: 100%;
+		height: auto;
+		position: relative;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.contact .in-fo-page-content {
+		margin-bottom: 10px;
+		padding-top: 10px;
+	}
 	.bread-crumb {
 		margin-bottom: 0px !important;
 		font-size: 12px;
