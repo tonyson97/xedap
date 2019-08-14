@@ -1,3 +1,6 @@
+.fa-caret-down{
+	display: none !important;
+}
 html {
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
@@ -453,6 +456,7 @@ ol {
 	display: block;
 	background-color: white;
 	color: #97ca51;
+	z-index: 99999;
 }
 
 .main-navigation .has-mega:hover .menu {
@@ -569,7 +573,7 @@ ul {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	z-index: 99;
-	top: 115%;
+	top: 100%;
 }
 
 .has-mega .menu a:hover {
@@ -615,11 +619,11 @@ ul {
 	background-color: #f1f1f1;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
-	z-index: 99;
+	z-index: 999;
 	left: -253px;
 	min-height: 308px;
 	min-width: 1150px !important;
-	top: 115%;
+	top: 100%;
 	width: 100%;
 	background: #fff none repeat scroll 0 0;
 	border-radius: 0;
@@ -679,7 +683,20 @@ ul {
 .selection-caterogy .container .pbe .colmn a {
 	position: absolute;
 	top: 160px;
-	right: 69px;
+	right: 25px;
+	text-transform: uppercase;
+	background-color: white;
+	color: #191919;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	transition: color 0.2s linear;
+	padding: 14px;
+}
+.selection-caterogy .container .pbe .so1 a {
+	position: absolute;
+	top: 160px;
+	right: 65px;
 	text-transform: uppercase;
 	background-color: white;
 	color: #191919;
@@ -693,7 +710,7 @@ ul {
 .selection-caterogy .container .pbe .recss a {
 	position: absolute;
 	top: 160px;
-	right: 19px;
+	right: 50px;
 	text-transform: uppercase;
 	background-color: white;
 	color: #191919;
@@ -2127,7 +2144,6 @@ ul {
 .nav>li>a {
 	position: relative;
 	display: block;
-	padding: 10px 15px;
 }
 
 .filter-item--check-box .fa {
