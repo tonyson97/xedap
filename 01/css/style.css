@@ -939,6 +939,7 @@ ul {
 
 .selection-new-product .row .product-grid .title a {
 	color: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
 }
 
 .selection-new-product .row .product-grid .title a:hover {

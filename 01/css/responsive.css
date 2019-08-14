@@ -1,6 +1,9 @@
 /*responsive*/
 
 @media only screen and (max-width: 2650px) {
+	#gangtay{
+		top: 70px;
+	}
     .fancybox-opened {
         left: 1000px !important;
     }
@@ -63,6 +66,11 @@
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 1000px) {
+	.selection-new-product .row .product-grid .title a {
+		color: black;
+		font-size: 13px;
+		font-weight: bold;
+	}
     .aside-hidden-mobile {
         display: none;
         padding-top: 10px;
@@ -116,6 +124,14 @@
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 1024px) {
+	#gangtay{
+		top: 60px;
+	}
+	.selection-new-product .row .product-grid .title a {
+		color: black;
+		font-size: 13px;
+		font-weight: bold;
+	}
 	.selection-caterogy .container .pbe .so1 a {
 		position: absolute;
 		top: 136px !important;
@@ -1061,6 +1077,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+	#gangtay{
+		top: 91px;
+	}
     .awe-section-6 .section-news .list-blogs-link .news-owl .owl-stage-outer .owl-stage .owl-item .item .tt-title-description {
         position: relative;
         margin-right: 20px;
@@ -2014,6 +2033,9 @@
 }
 
 @media only screen and (max-width: 527px) and (min-width: 411px) {
+	#gangtay{
+		top: 48px;
+	}
     .selection-caterogy .container .pbe #so1 a {
         position: absolute;
         top: 120px !important;
@@ -3171,6 +3193,9 @@
 
 
 @media only screen and (max-width: 375px) and (min-width: 320px) {
+	#gangtay{
+		top: 40px;
+	}
 	.selection-caterogy .container .pbe .colmn a {
 		position: absolute;
 		top: 100px;
