@@ -2588,6 +2588,7 @@ a:focus {
 
 .row .column .product-grid .title a {
 	color: rgba(0, 0, 0, 0.5);
+	letter-spacing: normal;
 }
 
 .row .column .product-grid .title a:hover {

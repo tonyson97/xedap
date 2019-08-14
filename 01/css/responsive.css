@@ -116,6 +116,20 @@
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 1024px) {
+	.selection-caterogy .container .pbe .so1 a {
+		position: absolute;
+		top: 136px !important;
+		right: 50px !important;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 12px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
+	}
+	
     .bread-crumb {
         height: 35px;
         margin-bottom: 0px !important;
@@ -180,14 +194,48 @@
     }
 
     .selection-caterogy .container .pbe .colmn a {
-        top: 110px;
-        right: 50px;
-        text-align: center;
+		position: absolute;
+		top: 135px !important;
+		right: 46px !important;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 13px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
+    }
+    .selection-caterogy .container .pbe .recss a {
+		position: absolute;
+		top: 135px !important;
+		right: 20px !important;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 13px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
     }
 
     .awe-section-5 .section_tour-inbound .container .col-md-12 .text-center h2 {
         width: auto;
-    }
+	}
+	.selection-caterogy .container .pbe .column a {
+		position: absolute;
+		top: 136px !important;
+		right: 20px !important;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 12px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
+	}
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 1000px) {
@@ -1149,7 +1197,7 @@
 
     .selection-caterogy .container .pbe .colmn a {
         position: absolute;
-        top: 160px;
+        top: 129px;
         right: 20px;
         text-transform: uppercase;
         background-color: white;
@@ -1163,7 +1211,7 @@
 
     .selection-caterogy .container .pbe .so1 a {
         position: absolute;
-        top: 160px;
+        top: 129px;
         right: 58px;
         text-transform: uppercase;
         background-color: white;
@@ -1177,7 +1225,7 @@
 
     .selection-caterogy .container .pbe .recss a {
         position: absolute;
-        top: 160px;
+        top: 129px;
         right: 45px;
         text-transform: uppercase;
         background-color: white;
@@ -3121,7 +3169,21 @@
     }
 }
 
+
 @media only screen and (max-width: 375px) and (min-width: 320px) {
+	.selection-caterogy .container .pbe .colmn a {
+		position: absolute;
+		top: 100px;
+		right: -14px;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 12px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
+	}
     .selection-new-product .row img {
         width: 100%;
         height: auto;
@@ -4390,6 +4452,34 @@
         position: relative;
         left: 0px;
     }
+}
+@media only screen and (max-width: 375px) {
+	.selection-caterogy .container .pbe .colmn a {
+		position: absolute;
+		top: 105px;
+		right: -5px;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 12px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
+	}
+	.selection-caterogy .container .pbe .so1 a {
+		position: absolute;
+		top: 105px;
+		right: 30px;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 12px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
+	}
 }
 
 /* end rp */
