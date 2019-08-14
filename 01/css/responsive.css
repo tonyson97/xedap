@@ -131,6 +131,7 @@
 		color: black;
 		font-size: 13px;
 		font-weight: bold;
+		letter-spacing: normal;
 	}
 	.selection-caterogy .container .pbe .so1 a {
 		position: absolute;
@@ -1077,6 +1078,24 @@
 }
 
 @media only screen and (max-width: 768px) {
+	.row .column-list .product-grid .product-content .add-to-card .btn-cart i {
+		top: -7px;
+	}
+	.main_container .pottion .title-head {
+		padding: 10px 0;
+		font-weight: bold;
+		margin: 0;
+		font-size: 22px;
+		color: #333;
+	}
+	.tab-content .tab-pane .product-grid .product-content .title {
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: capitalize;
+		margin: 0 0 3px;
+		transition: all .3s ease 0s;
+		font-family: 'Montserrat', sans-serif;
+	}
 	#gangtay{
 		top: 91px;
 	}
@@ -1341,7 +1360,8 @@
 
     .awe-section-5 .tab-content .tab-pane .product-grid .product-content .title a {
         color: black;
-        font-size: 20px;
+		font-size: 13px;
+		letter-spacing: normal;
     }
 
     .awe-section-6 .section-news h2 {
@@ -1842,8 +1862,9 @@
     .selection-new-product .row .product-grid .title a {
         color: black;
         font-size: 13px;
-        font-weight: 400;
-        text-transform: none;
+        font-weight: bold;
+		text-transform: none;
+		letter-spacing: normal;
     }
 
     .selection-new-product .row .product-grid .product-image {
