@@ -738,7 +738,8 @@
             flex: 0 0 50%;
             max-width: 50%;
             padding-left: 5px;
-            padding-right: 5px;
+			padding-right: 5px;
+			padding-top: 10px;
         }
 
         .recss {
