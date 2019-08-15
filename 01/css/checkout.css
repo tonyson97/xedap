@@ -1970,6 +1970,7 @@ input[type="radio"] {
 @media only screen and (max-width : 375px) {
     .section {
         display: block;
+        width: 100%;
     }
 
     .field__input-btn-wrapper {
@@ -1983,8 +1984,6 @@ input[type="radio"] {
 
     .main_content .row {
         display: grid !important;
-        position: relative;
-        left: -15px;
     }
 
     .main_content .row .col-md-6 {

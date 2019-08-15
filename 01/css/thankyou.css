@@ -1759,7 +1759,7 @@ p {
 @media only screen and (max-width: 375px) {
     .thankyou-message-icon {
         position: relative !important;
-        left: 127px !important;
+        left: 100px !important;
     }
     .thankyou-infos .thankyou-message {
         display: inline-grid !important;

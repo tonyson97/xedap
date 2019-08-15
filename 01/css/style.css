@@ -2588,7 +2588,7 @@ a:focus {
 }
 
 .row .column .product-grid .title a {
-	color: rgba(0, 0, 0, 0.5);
+	color: black;
 	letter-spacing: normal;
 }
 
@@ -3455,10 +3455,6 @@ abel[for] {
 }
 
 /* right menu */
-
-.margin-bottom-30 {
-	margin-bottom: 30px !important;
-}
 
 .right_module .module_service_details .wrap_module_service {
 	background: #fff;

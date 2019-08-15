@@ -90,7 +90,7 @@
     }
 
     .container .row .main_container .row .column img {
-        width: 86% !important;
+        width: 100%;
         left: 40px;
     }
 
@@ -124,6 +124,16 @@
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 1024px) {
+	.account-page .container .row {
+		margin-right: -10px;
+		margin-left: -10px;
+		min-width: 100%;
+	}
+	#qty{
+		position: relative;
+		top: -32px;
+		left: 40px;
+	}
 	#gangtay{
 		top: 60px;
 	}
@@ -212,7 +222,7 @@
 
     .selection-caterogy .container .pbe .colmn a {
 		position: absolute;
-		top: 135px !important;
+		top: 100px !important;
 		right: 46px !important;
 		text-transform: uppercase;
 		background-color: white;
@@ -222,10 +232,11 @@
 		text-decoration: none;
 		transition: color 0.2s linear;
 		padding: 14px;
+		opacity: 0.7;
     }
     .selection-caterogy .container .pbe .recss a {
 		position: absolute;
-		top: 135px !important;
+		top: 100px !important;
 		right: 20px !important;
 		text-transform: uppercase;
 		background-color: white;
@@ -235,6 +246,7 @@
 		text-decoration: none;
 		transition: color 0.2s linear;
 		padding: 14px;
+		opacity: 0.7;
     }
 
     .awe-section-5 .section_tour-inbound .container .col-md-12 .text-center h2 {
@@ -516,8 +528,8 @@
 
         .clearfix .col-md-6 {
             flex-direction: column;
-            flex: 0 0 100% !important;
-            max-width: 100% !important;
+            flex: 0 0 100%;
+            max-width: 100%;
         }
 
         #prđetal .col-md-3 {
@@ -832,7 +844,7 @@
         }
 
         .left-filters .aside-filter .heading {
-            padding: 0;
+            padding: 0 0 12px;
             border-bottom: 1px solid #f3f3f3;
             border-top: 1px solid #f3f3f3;
             margin-bottom: 0px;
@@ -1079,6 +1091,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+	#qty{
+		position: relative;
+		top: -30px;
+		left: 40px;
+	}
 	.row .column-list .product-grid .product-content .add-to-card .btn-cart i {
 		top: -7px;
 	}
@@ -1153,11 +1170,10 @@
     }
 
     .clearfix .col-md-6 {
-        flex-direction: column;
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
-        line-height: 35px;
-    }
+		flex-direction: column;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
 
     #prđetal .col-md-3 {
         flex: 0 0 100%;
@@ -1171,7 +1187,8 @@
     }
 
     .zoomContainer {
-        left: 0px !important;
+		left: 0px !important;
+		display: none;
     }
 
     .selection-new-product .row {
@@ -1236,7 +1253,7 @@
 
     .selection-caterogy .container .pbe .colmn a {
         position: absolute;
-        top: 129px;
+        top: 80px;
         right: 20px;
         text-transform: uppercase;
         background-color: white;
@@ -1245,12 +1262,13 @@
         font-size: 12px;
         text-decoration: none;
         transition: color 0.2s linear;
-        padding: 14px;
+		padding: 14px;
+		opacity: 0.7;
     }
 
     .selection-caterogy .container .pbe .so1 a {
         position: absolute;
-        top: 129px;
+        top: 80px;
         right: 58px;
         text-transform: uppercase;
         background-color: white;
@@ -1259,12 +1277,13 @@
         font-size: 12px;
         text-decoration: none;
         transition: color 0.2s linear;
-        padding: 14px;
+		padding: 14px;
+		opacity: 0.7;
     }
 
     .selection-caterogy .container .pbe .recss a {
         position: absolute;
-        top: 129px;
+        top: 80px;
         right: 45px;
         text-transform: uppercase;
         background-color: white;
@@ -1273,11 +1292,12 @@
         font-size: 12px;
         text-decoration: none;
         transition: color 0.2s linear;
-        padding: 14px;
+		padding: 14px;
+		opacity: 0.7;
     }
 
     .selection-new-product h2 {
-        padding-top: 20px;
+        padding-top: 0;
     }
 
     .selection-new-product h3 {
@@ -1418,7 +1438,9 @@
     }
 
     #qwe {
-        width: 100%;
+		max-width: 100%;
+		margin-left: 0px;
+		display: flex;
     }
 
     #qwer .column-list .product-grid .title a {
@@ -1459,7 +1481,9 @@
     }
 
     #reversecl {
-        flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		padding-left: 10px;
+		padding-right: 10px;
     }
 
     .pagination {
@@ -1585,7 +1609,7 @@
     }
 
     .selection-new-product {
-        padding: 41px 0;
+        padding:  0;
         width: 100%;
     }
 
@@ -1704,8 +1728,8 @@
 
     .clearfix .col-md-6 {
         flex-direction: column;
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
     #prđetal .col-md-3 {
@@ -1747,8 +1771,8 @@
     }
 
     .awe-section-4 .section_banner .container {
-        padding-left: 10px;
-        padding-right: 0px;
+        padding-left: 0px;
+        padding-right: 20px;
     }
 
     .slick-dotted.slick-slider {
@@ -2060,7 +2084,7 @@
 	}
     .selection-caterogy .container .pbe #so1 a {
         position: absolute;
-        top: 120px !important;
+        top: 68px !important;
         right: 38px !important;
         text-transform: uppercase;
         background-color: white;
@@ -2069,12 +2093,13 @@
         font-size: 13px;
         text-decoration: none;
         transition: color 0.2s linear;
-        padding: 14px;
+		padding: 14px;
+		opacity: 0.7;
     }
 
     .selection-caterogy .container .pbe .colmn a {
         position: absolute;
-        top: 120px !important;
+        top: 68px !important;
         right: 4px !important;
         text-transform: uppercase;
         background-color: white;
@@ -2083,7 +2108,8 @@
         font-size: 13px;
         text-decoration: none;
         transition: color 0.2s linear;
-        padding: 14px;
+		padding: 14px;
+		opacity: 0.7;
     }
 
     #qwe {
@@ -2328,7 +2354,7 @@
         align-items: center;
         min-width: 100%;
         top: 0px;
-        left: -15px;
+        left: -10px;
     }
 
     .topbar .container .row .left-infor {
@@ -2379,7 +2405,7 @@
         margin-left: -20px;
         min-width: 100%;
         display: flex;
-        flex-direction: column-reverse;
+		flex-direction: column-reverse;
     }
 
     .account-page .container .row .col-md-12 {
@@ -2612,7 +2638,9 @@
     .col-sm-6 {
         padding-right: 5px !important;
         padding-left: 5px !important;
-        padding-top: 10px;
+		padding-top: 10px;
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
     }
 
     .selection-new-product .row .product-grid .product-content {
@@ -3215,6 +3243,41 @@
 
 
 @media only screen and (max-width: 375px) and (min-width: 320px) {
+	.bread-crumb .breadcrumb {
+		background-color: transparent;
+		display: initial;
+	}
+	#form-login{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.row .column .product-grid .product-content {
+		padding: 4px 18px 10px 12px;
+		overflow: hidden;
+		position: relative;
+	}
+	.row .column .product-grid .title {
+		text-transform: none;
+		margin: 0 0 3px;
+		transition: all .3s ease 0s;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		text-align: left;
+		font-size: 14px;
+		color: black;
+		letter-spacing: normal;
+	}
+	.left-filters .aside-filter .heading {
+		padding: 12px;
+		border-bottom: 1px solid #f3f3f3;
+		border-top: 1px solid #f3f3f3;
+		margin-bottom: 0px;
+		position: relative;
+		top: 11px;
+	}
+	.list-blogs-link .owl-stage-outer .owl-stage .active {
+		padding-right: 10px;
+	}
 	#gangtay{
 		top: 40px;
 	}
@@ -3252,11 +3315,11 @@
         font-size: 12px;
         max-width: 100%;
         padding: 0px;
-        height: 24px;
+        height: 40px;
     }
 
     .rowss {
-        width: 100%;
+	width: 100%;
         padding-left: 10px;
     }
 
@@ -3269,9 +3332,9 @@
     }
 
     .bread-crumb .container .row {
-        margin-left: -16px;
+        margin-left: -11px;
         margin-right: -10px;
-        max-height: 20px;
+        max-height: 40px;
     }
 
     .row .column-list .product-grid .product-content .add-to-card .btn-cart i {
@@ -3416,7 +3479,8 @@
     .selection-new-product .row .jaxx-more .pagination {
         padding: 0;
         margin: 0 auto;
-        display: block;
+		display: block;
+		padding-bottom: 10px;
     }
 
     .selection-new-product {
@@ -3454,7 +3518,7 @@
     }
 
     .margin-top-20 .col-lg-12 .border-bg .col-md-12 {
-        width: 100%;
+        width: 50%;
     }
 
     .related-product img {
@@ -3591,7 +3655,7 @@
         align-items: center;
         min-width: 100%;
         top: -1px !important;
-        left: -5px !important;
+        left: -1px !important;
     }
 
     .fa-caret-down {
@@ -3645,7 +3709,8 @@
 
     .account-page .container .row .col-md-12 {
         flex: 0 0 100%;
-        max-width: 100%;
+		max-width: 100%;
+		padding: 0;
     }
 
     .account-page .container .row .col-md-12 .row {
@@ -3676,7 +3741,7 @@
 
     .account-page .container .row .col-md-12 .row {
         margin-right: -10px;
-        margin-left: -4px;
+        margin-left: 0px;
         min-width: 100%;
         display: flex;
         flex-direction: column;
@@ -3740,13 +3805,13 @@
     }
 
     .topbar .container .row .hidden-xs {
-        display: none;
+        display: none !important;
     }
 
     .topbar .container .row .left-infor {
         left: 0px !important;
         position: relative;
-        top: -20px;
+        top: -12px;
         display: flex;
         justify-content: center;
     }
@@ -3835,7 +3900,8 @@
     .selection-new-product .row .product-grid .title a {
         color: black;
         font-size: 13px;
-        font-weight: bold;
+		font-weight: bold;
+		letter-spacing: normal;
     }
 
     .new-price {
@@ -3852,7 +3918,7 @@
 
     .awe-section-5 .section_tour-inbound .container .col-md-12 .text-center h2 {
         position: relative;
-        left: -22px;
+        left: -10px;
     }
 
     .awe-section-5 .section_tour-inbound .container .col-md-12 .text-center .section_new_product_description {
@@ -3874,7 +3940,9 @@
     .col-sm-6 {
         padding-right: 5px !important;
         padding-left: 5px !important;
-        padding-top: 10px !important;
+		padding-top: 10px !important;
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
     }
 
     .selection-new-product .row .product-grid .product-content {
@@ -4004,7 +4072,7 @@
 
     .footer-policy .container .row .tt-services-listing {
         width: 100%;
-        display: grid;
+        display: grid !important;
         justify-content: space-between;
         margin: 0 auto;
     }
@@ -4127,7 +4195,8 @@
     }
 
     .awe-section-5 .col-md-12 .section_new_product_title {
-        width: 100%;
+		width: 100%;
+		padding-top: 10px;
     }
 
     .section_tour-inbound {
@@ -4232,7 +4301,7 @@
         max-width: 100% !important;
         margin-left: 20px !important;
         position: relative;
-        left: -10px;
+        left: -20px;
     }
 
     .bread-crumb .container {
@@ -4243,7 +4312,7 @@
 
     div.container {
         max-width: 100%;
-        padding: 5px;
+        padding: 0 !important;
     }
 
     #ctgprd .main_container .row .column {
@@ -4300,7 +4369,7 @@
         text-transform: uppercase;
         margin-top: 0;
         position: relative;
-        left: -97px;
+        left: -72px !important;
     }
 
     .cart-mobile .header-cart-content .content-product-list .item-product {
@@ -4361,7 +4430,7 @@
     }
 
     .select-item-qty-mobile>div {
-        width: 110px;
+        width: 96px;
         position: relative;
         height: 25px;
     }
@@ -4407,14 +4476,14 @@
         color: #000;
         border: solid thin #ddd;
         position: relative;
-        right: 5px;
+        right: 10px;
         max-height: 25px;
     }
 
     .select-item-qty-mobile .txt_center input {
         border-left: none;
         border-right: none;
-        left: 25px;
+        left: 48px !important;
     }
 
     .cart-mobile .select-item-qty-mobile .txt_center button.increase.items-count.btn-plus {
@@ -4482,7 +4551,7 @@
     }
 
     .awe-section-6 .section-news h2 {
-        font-size: 26px;
+        font-size: 24px;
         line-height: 31px;
         font-weight: 700;
         letter-spacing: 0.03cm;
@@ -4492,31 +4561,18 @@
         font-family: 'Montserrat', sans-serif;
         margin: 0 auto;
         position: relative;
-        left: 7px;
+        left: -4px;
     }
 
     .awe-section-6 .section-news .container .col-md-12 .text-center .section_new_product_description {
         position: relative;
-        left: 0px;
+        left: -4px;
     }
 }
 @media only screen and (max-width: 375px) {
 	.selection-caterogy .container .pbe .colmn a {
 		position: absolute;
-		top: 105px;
-		right: -5px;
-		text-transform: uppercase;
-		background-color: white;
-		color: #191919;
-		font-weight: bold;
-		font-size: 12px;
-		text-decoration: none;
-		transition: color 0.2s linear;
-		padding: 14px;
-	}
-	.selection-caterogy .container .pbe .so1 a {
-		position: absolute;
-		top: 105px;
+		top: 43px;
 		right: 30px;
 		text-transform: uppercase;
 		background-color: white;
@@ -4526,6 +4582,21 @@
 		text-decoration: none;
 		transition: color 0.2s linear;
 		padding: 14px;
+		opacity: 0.7;
+	}
+	.selection-caterogy .container .pbe .so1 a {
+		position: absolute;
+		top: 43px;
+		right: 25px;
+		text-transform: uppercase;
+		background-color: white;
+		color: #191919;
+		font-weight: bold;
+		font-size: 12px;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		padding: 14px;
+		opacity: 0.8;
 	}
 }
 
